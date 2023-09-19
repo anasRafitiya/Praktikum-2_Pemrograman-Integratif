@@ -7,7 +7,7 @@ Jawaban dari tugas praktikum Pemrograman Integratif pada bab CRUD MongoDB Compas
 
 
 ## LANGKAH PERCOBAAN
-## * MongoDB Compass
+## MongoDB Compass
 ### 1. Lakukan koneksi ke MongoDB menggunakan connection string 
 **Berikut apabila menggunakan tidak menggunakan atlas (secara local)**
 > ![no 1](https://github.com/anasRafitiya/Praktikum-2_Pemrograman-Integratif/assets/125624764/1d4b44fa-06f5-44ac-bbf8-9fbd66c34f2f)
@@ -15,6 +15,7 @@ Jawaban dari tugas praktikum Pemrograman Integratif pada bab CRUD MongoDB Compas
 
 ### 2. Buat database dengan melakukan klik “Create Database”
 > ![no 2](https://github.com/anasRafitiya/Praktikum-2_Pemrograman-Integratif/assets/125624764/31758010-9a4f-4d49-8c92-a6d25451c680)
+
 > [!WARNING]
 > MongoDB akan membuat nilai _id secara otomatis, tidak perlu mengikuti nilai _id yang terdapat pada modul
 
@@ -40,7 +41,7 @@ Jawaban dari tugas praktikum Pemrograman Integratif pada bab CRUD MongoDB Compas
 
 
 
-## * MongoDB Shell
+## MongoDB Shell
 ### 1. Lakukan koneksi ke MongoDB Server dengan menjalankan command mongosh bagi yang menggunakan terminal build in OS sehingga tampilan terminal kalian akan menjadi seperti berikut.
 > ![no 8](https://github.com/anasRafitiya/Praktikum-2_Pemrograman-Integratif/assets/125624764/ef37c39e-aed2-42ac-8c11-dc7ac3909052)
 > [!NOTE]
