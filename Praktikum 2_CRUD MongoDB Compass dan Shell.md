@@ -39,6 +39,7 @@
 ## MongoDB Shell
 ### 1. Lakukan koneksi ke MongoDB Server dengan menjalankan command mongosh bagi yang menggunakan terminal build in OS sehingga tampilan terminal kalian akan menjadi seperti berikut.
 > ![no 8](https://github.com/anasRafitiya/Praktikum-2_Pemrograman-Integratif/assets/125624764/ef37c39e-aed2-42ac-8c11-dc7ac3909052)
+
 > [!NOTE]
 > Apabila kalian menggunakan MongoDB atlas, silahkan copy connection string dari MongoDB atlas kalian masing-masing dan paste kan di terminal kalian. Namun, di sini praktikan mengakses MongoDB Shell langsung dari aplikasi MongoDB Atlas dengan cara menekan tulisan **MONGOSH** yang terletak di bagian bawah layar setelah melakukan koneksi ke database yang diinginkan.
 
