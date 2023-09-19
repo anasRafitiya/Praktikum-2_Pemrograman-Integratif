@@ -37,7 +37,7 @@ Jawaban dari tugas praktikum Pemrograman Integratif pada bab CRUD MongoDB Compas
 > [!NOTE]
 > Apabila kalian menggunakan MongoDB atlas, silahkan copy connection string dari MongoDB atlas kalian masing-masing dan paste kan di terminal kalian. Namun, di sini praktikan mengakses MongoDB Shell langsung dari aplikasi MongoDB Atlas dengan cara menekan tulisan **MONGOSH** yang terletak di bagian bawah layar setelah melakukan koneksi ke database yang diinginkan.
 
-#### 2. Mencoba melihat isi list database yang ada di server dengan menjalankan command <sub>show dbs '#FF0000'</sub>
+#### 2. Mencoba melihat isi list database yang ada di server dengan menjalankan command <sub>show dbs</sub>'#ff0000'
 ![no 9](https://github.com/anasRafitiya/Praktikum-2_Pemrograman-Integratif/assets/125624764/ab02a699-9344-44a8-9484-019de74b6579)
 ![no 9 b](https://github.com/anasRafitiya/Praktikum-2_Pemrograman-Integratif/assets/125624764/207a1c6f-8ed9-40f7-a1d1-8aa382fa0168)
 ![no 9 c](https://github.com/anasRafitiya/Praktikum-2_Pemrograman-Integratif/assets/125624764/c8522563-c180-470e-9148-5ee55ab4cbe4)
