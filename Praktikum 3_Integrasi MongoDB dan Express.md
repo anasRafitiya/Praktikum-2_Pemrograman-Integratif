@@ -31,6 +31,7 @@ Setelah itu coba jalankan aplikasi dengan command <sub>node index.js</sub>
 > Dikarenakan tidak menggunakan nodemon, maka setiap kali menyimpan perubahan file diharuskan untuk restart server node terlebih dahulu dengan menekan ctrl+c dan jalankan command <sub>node index.js</sub> lagi
 ### 2. Lakukan pembuatan file .env dan masukkan baris berikut
 > PORT=5000
+> 
 > ![no 3 2](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/63849454-d7ac-4282-a89b-ab311064994e)
 
 Setelah itu ubahlah kode pada listening port menjadi berikut dan coba jalankan aplikasi kembali
