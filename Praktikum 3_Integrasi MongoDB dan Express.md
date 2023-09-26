@@ -3,12 +3,23 @@
 ## LANGKAH PERCOBAAN
 ## Percobaan instalasi NodeJS
 ### 1. Buka halaman
+> ![no1 1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/cf52d582-40aa-4a81-9f2c-7df5a5f295ac)
+
 ### 2. Download dan jalankan node setup
+> ![no 1 2y](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/3d7be202-e618-48a9-b5a5-4aa85222fffe)
+
 ### 3. Setelah instalasi selesai jalankan command <sub>node -v</sub> untuk memeriksa apakah NodeJS sudah terinstall
+> ![no 1 3](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/f2453381-1cc7-4782-b0db-9f17ddc310b3)
+
 ## Inisiasi project Express dan pemasangan package
 ### 1. Lakukan pembuatan folder dengan nama express-mongodb dan masuk ke dalam folder tersebut lalu buka melalui text editor masing-masing
+> ![no 2 1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/978c9ea4-e0b1-41e6-86f0-d29f3428ac52)
+
 ### 2. Lakukan npm init untuk mengenerate file package .json dengan menggunakan command <sub>npm init -y</sub>
+> ![no 2 2](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/2ca38764-2733-44f6-856d-3f75469d8299)
+
 ### 3. Lakukan instalasi express, mongoose, dan dotenv dengan menggunakan command <sub>npm i express mongoose dotenv</sub>
+
 ## Koneksi Express ke MongoDB
 ### 1. Buatlah file **index.js** pada root folder dan masukkan kode di bawah ini
 Setelah itu coba jalankan aplikasi dengan command <sub>node index.js</sub>
