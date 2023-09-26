@@ -48,7 +48,7 @@ Setelah itu ubahlah kode pada listening port menjadi berikut dan coba jalankan a
 Setelah itu coba jalankan aplikasi kembali
 > ![no 3 4b](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/c86bf347-2f33-4c6f-850b-bfb3c80957e7)
 
-##Pembuatan routing
+## Pembuatan routing
 ### 1. Lakukan pembuatan direktori routes di tingkat yang sama dengan index.js
 > ![no 4 1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/0cab4c30-3999-436f-96e9-bd92a2c1cc48)
 
@@ -75,7 +75,7 @@ Setelah itu coba jalankan aplikasi kembali
 > ![no 5 2](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/8bbda141-6c96-418c-8cc4-a65f21ddcc08)
 
 ### 3. Salin baris kode dari routes untuk fungsi getAllBooks
-> ![no 5 3](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/c47c5e46-43eb-4d73-8424-da89b083a04b)
+> ![no 5 3real](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/dd4d9130-9cee-426e-ab81-1a3473be6f1d)
 
 ### 4. Lakukan hal yang sama untuk getOneBook, createBook, updateBook, deleteBooks
 > ![no 5 4 real](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/2d773405-bfa2-400f-b195-f18d7d9160a0)
