@@ -1,7 +1,6 @@
 # BAB 3 Basic Routing dan Migration
 
 ## LANGKAH PERCOBAAN
-## Percobaan instalasi NodeJS
 ### 1. GET
 Untuk menambahkan endpoint dengan method GET pada aplikasi kita, kita dapat mengunjungi file web.php pada folder routes. Kemudian tambahkan baris ini pada akhir file
 > ![no 1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/ffbaf946-112a-45ec-8a4b-db8b964e72da)
