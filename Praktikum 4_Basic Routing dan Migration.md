@@ -7,6 +7,7 @@ Untuk menambahkan endpoint dengan method GET pada aplikasi kita, kita dapat meng
 > ![no 1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/ffbaf946-112a-45ec-8a4b-db8b964e72da)
 Setelah itu coba jalankan aplikasi dengan command 
 > php -S localhost:8000 -t public
+
 > ![no 1 b](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/41110745-94ce-4ea5-9830-df6fdeae7589)
 
 > [!NOTE]
@@ -24,7 +25,7 @@ Setelah selesai menambahkan route untuk method POST, PUT, PATCH, DELETE, dan OPT
 > ![no 2 a](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/9fb26967-c0b0-41a5-9181-0ca44b9a8a66)
 
 #### b.	Setelah menginstall Thunder Client, kita akan melihat logo seperti petir pada activity bar kita (sebelah kiri).
-> ![no 2 b](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/ba43d806-10c0-498e-92a8-b514f0ce15fe)
+> ![no 2 breal](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/fae61c85-d628-470e-92f2-b45d6446cd80)
 
 #### c.	Kita dapat membuat request dengan menekan “New Request” pada ekstensi
 > ![no 2 c](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/cc830252-4a68-4f6b-8e01-55a259da25a5)
