@@ -5,6 +5,7 @@
 ### 1. GET
 Untuk menambahkan endpoint dengan method GET pada aplikasi kita, kita dapat mengunjungi file web.php pada folder routes. Kemudian tambahkan baris ini pada akhir file
 > ![no 1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/ffbaf946-112a-45ec-8a4b-db8b964e72da)
+
 Setelah itu coba jalankan aplikasi dengan command 
 > php -S localhost:8000 -t public
 
@@ -12,8 +13,10 @@ Setelah itu coba jalankan aplikasi dengan command
 
 > [!NOTE]
 > Pastikan buka cmd pada folder aplikasi
+
 Setelah aplikasi berhasil dijalankan, kita dapat membuka browser dengan url, <sub>http://localhost:8000/get</sub> , path yang akan kita akses akan berbentuk demikian, <sub>http://{BASE_URL}{PATH}</sub> , jika BASE_URL kita adalah <sub>localhost:8000</sub> dan PATH kita adalah <sub>/get</sub> , maka url akan berbentuk seperti diatas.
 > ![no 1 c](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/f2fa2340-c764-47c8-9d98-29d99e3fb2d5)
+
 > Tampilan setelah mengakses http://localhost:8000/get
 
 ### 2. POST, PUT, PATCH, DELETE, dan OPTIONS 
@@ -40,6 +43,7 @@ Setelah selesai menambahkan route untuk method POST, PUT, PATCH, DELETE, dan OPT
 #### a.	Sebelum melakukan migrasi database pastikan server database aktif kemudian pastikan sudah membuat database dengan nama <sub>lumenapi</sub>
 > ![no 3 a](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/da795ff2-d712-4a57-8927-fc0fcfac726e)
 > Tampilan server database aktif
+
 > ![database lumen api](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/b854548f-2f9f-42b9-8d42-59cc0cb08956)
 > Membuat database <sub>lumenapi</sub>
 
@@ -54,10 +58,10 @@ Menjadi
 
 #### d.	Setelah itu jalankan command berikut untuk membuat file migration,
 > ![no 3 d1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/5dc9c73d-1666-4383-9de5-d317231777a4)
+> > ![no 3 d2](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/2643c2bc-a981-4bb3-abce-57c4477beb48)
 
 Setelah menjalankan 2 syntax di atas akan terbuat 2 file pada folder <sub>database/migration</sub> dengan format YYY_MM_DD_HHmmss_nama_migrasi. Pada file migrasi kita akan menemukan fungsi up() dan fungsi down(), fungsi up() akan digunakan pada saat kita melakukan migrasi, fungsi down() akan digunakan saat kita ingin me-rollback migrasi
-> ![no 3 d2](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/2643c2bc-a981-4bb3-abce-57c4477beb48)
-> Terdapat dua file tambahan pada folder database/migration
+
 #### e.	Ubah fungsi up pada file migrasi create_users_table
 > Sebelumnya
 > ![no 3 e1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/6313e37c-1d65-43cb-ac6d-165f6d463f2e)
