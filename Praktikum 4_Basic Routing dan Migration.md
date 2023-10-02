@@ -57,20 +57,22 @@ Menjadi
 
 #### d.	Setelah itu jalankan command berikut untuk membuat file migration,
 > ![no 3 d1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/5dc9c73d-1666-4383-9de5-d317231777a4)
-> > ![no 3 d2](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/2643c2bc-a981-4bb3-abce-57c4477beb48)
+> ![no 3 d2](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/2643c2bc-a981-4bb3-abce-57c4477beb48)
 
 Setelah menjalankan 2 syntax di atas akan terbuat 2 file pada folder <sub>database/migration</sub> dengan format YYY_MM_DD_HHmmss_nama_migrasi. Pada file migrasi kita akan menemukan fungsi up() dan fungsi down(), fungsi up() akan digunakan pada saat kita melakukan migrasi, fungsi down() akan digunakan saat kita ingin me-rollback migrasi
 
 #### e.	Ubah fungsi up pada file migrasi create_users_table
-> Sebelumnya
+Sebelumnya
 > ![no 3 e1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/6313e37c-1d65-43cb-ac6d-165f6d463f2e)
-> Diubah menjadi
+
+Diubah menjadi
 > ![no 3 e2](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/e6dec90d-6be9-4a96-beae-b38635414fd9)
 
 #### f.	Ubah fungsi up pada file migrasi <ub>create_products_table</sub>
-> Sebelumnya
+Sebelumnya
 > ![no 3 f1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/3197bd81-4ee2-4aa6-9023-ebe39d03692c)
-> Diubah menjadi
+
+Diubah menjadi
 > ![no 3 f2](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/0eb90b38-c65f-41fb-bf35-0eccca7f4c41)
 
 #### g.	Kemudian jalankan command,
