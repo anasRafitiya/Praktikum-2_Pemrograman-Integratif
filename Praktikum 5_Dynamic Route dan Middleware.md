@@ -3,6 +3,7 @@
 ## LANGKAH PERCOBAAN
 ### 1.	Dynamic Route
 Dynamic route adalah route yang dapat berubah-ubah, contohnya pada saat kita membuka suatu halaman web, kadang kita melihat <sub>/users/1</sub> atau <sub>/users/2</sub>, hal ini yang dinamakan dynamic routes.
+
 Untuk menambahkan dynamic routes pada aplikasi lumen kita, kita dapat menggunakan syntax berikut,
 > ![no 1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/891e945c-fb9d-4615-866f-412b5cdb3db6)
 
@@ -24,6 +25,7 @@ Selain dapat mengelompokkan prefix, kita juga dapat mengelompokkan middleware da
 
 ### 4.	Middleware
 Middleware adalah penengah antara komunikasi aplikasi dan client. Middleware biasanya digunakan untuk membatasi siapa yang dapat berinteraksi dengan aplikasi kita dan semacamnya, kita dapat menambahkan middleware dengan menambahkan file pada folder <sub>app/Http/Middleware</sub>. Pada folder tersebut terdapat file <sub>ExampleMiddleware</sub>, kita dapat men-copy file tersebut untuk membuat middleware baru.
+
 Pada praktikum kali ini akan dibuat middeware Age dengan isi,
 > ![no 4 1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/a8268129-d75f-4bf3-a7eb-18d735a7ff7b)
 
@@ -31,6 +33,7 @@ Kemudian, setelah menambahkan filter pada <sub>AgeMiddleware</sub>, kita harus m
 > ![no 4 2](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/fa2fd74d-0269-41a5-a397-be8fe2f1acae)
 
 Pada baris 65 terdapat comment mengenai proses mendaftarkan suatu middleware dalam aplikasi kita. Untuk menambahkan middleware pada aplikasi kita, kita dapat men-uncomment baris 75 hingga 77, kemudian menambahkan age middleware ke dalamnya. Namun, karena kita hanya ingin menambahkan middleware pada route tertentu kita akan menghapus comment pada baris 79 hingga 81, kemudian menambahkan middleware age di dalamnya.
+
 Lalu, kita dapat menambahkan middleware pada routes kita dengan menambahkan opsi middleware pada salah satu route, contohnya,
 > ![no 4 3](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/c45f73bc-7def-4a14-bed6-ae2a8c544e2c)
 
