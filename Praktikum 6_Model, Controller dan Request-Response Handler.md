@@ -3,7 +3,8 @@
 ## LANGKAH PERCOBAAN
 ## Model
 ### 1.	Pastikan terdapat table users yang dibuat menggunakan migration pada bab sebelumnya. Berikut informasi kolom yang harus ada.
-> ![no 1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/243e29f5-65c3-4752-848a-a4ce879910b2)
+> ![tabel model](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/6aa14cf9-0a86-4e06-a941-1a40b310dc48)
+>  ![no 1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/243e29f5-65c3-4752-848a-a4ce879910b2)
 
 ### 2. Bershihkan isi User.php yang ada sebelumnya dan isi dengan baris kode berikut
 > ![no 2](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/88977f1f-904a-4cb4-954d-1a54b3276c45)
@@ -51,12 +52,13 @@
 > ![no 5 2 2](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/f0f61add-eb69-48f6-bc5c-9c6811e3c511)
 
 ### 3.	Tambahkan ketiga route pada file routes/web.php menggunakan group route
-> ![no 5 3](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/03b0c8a1-caf3-4a3a-bcf6-45eb471d80d9)
+> ![no 5 3 fix](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/33edff1e-43ac-408a-9818-e1e0768f9bfe)
 
 ### 4.	Jalankan aplikasi pada route /users/default menggunakan Postman
 > ![no 5 4](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/dc66c1c1-5f2a-43bd-b813-1d48f4a88415)
 
 ### 5.	Jalankan aplikasi pada route /users/new dengan mengisi body sebagai berikut
+> ![tabel body](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/607306a5-0175-4f6d-9a5f-d1e7ef4b53e7)
 > ![no 5 5](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/fd2e41cc-241d-40f3-8b34-8d13be5a322b)
 
 ### 6.	Jalankan aplikasi pada route /users/all
