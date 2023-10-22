@@ -24,6 +24,7 @@
 ## Koneksi Express ke MongoDB
 ### 1. Buatlah file **index.js** pada root folder dan masukkan kode di bawah ini
 > ![no 3 1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/dc765e1e-80f3-41a5-b921-cf9d803529be)
+
 Setelah itu coba jalankan aplikasi dengan command <sub>node index.js</sub>
 > ![no 3 1b](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/b2110acb-43e1-4b8a-91a5-f90825929164)
 
