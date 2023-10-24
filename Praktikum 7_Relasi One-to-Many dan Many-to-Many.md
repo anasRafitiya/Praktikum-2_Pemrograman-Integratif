@@ -14,34 +14,38 @@ Berikut adalah table yang akan digunakan pada percobaan ini
 ### 3.	Setelah mengubah konfigurasi pada file .env, kita juga perlu menghidupkan beberapa library bawaan dari lumen dengan membuka file app.php pada folder bootstrap dan mengubah baris ini
 > ![no 1 3 1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/272615d9-5c03-4fde-8e9c-b55a02b68d56)
 
-Menjadi
+menjadi
 > ![no 1 3 2](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/7a6a7602-135b-4369-bed9-43ee3ba18e67)
 
 ### 4.	Setelah itu jalankan command berikut untuk membuat file migration
 > ![no 1 4](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/bbaba3fa-6dd9-4ae2-9caf-dd40a4834328)
 
 ### 5.	Ubah fungsi <sub>up()</sub> pada file <sub>migrasi create_post_table</sub>
+sebelumnya
 > ![no 1 5 1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/ceeaf0df-9458-4040-b369-f60ec362064b)
 
-Menjadi
+diubah menjadi
 > ![no 1 5 2](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/203a2c4f-c283-40bb-9786-824778ba8335)
 
 ### 6.	Ubah fungsi <sub>up()</sub> pada file <sub>create_comments_table</sub>
+sebelumnya
 > ![no 1 6 1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/7cc2e30e-f232-4d9d-9e7e-79091ade8232)
 
-Menjadi
+diubah menjadi
 > ![no 1 6 2](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/f76e0997-0a68-4261-a65d-d4575dc5162b)
 
 ### 7.	Ubah fungsi <sub>up()</sub> pada file <sub>create_tags_table</sub>
+sebelumnya
 > ![no 1 7 1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/50e5d116-afcd-4132-b843-0a9dc11f2217)
 
-Menjadi
+diubah menjadi
 > ![no 1 7 2](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/bde3b55f-c62e-4a96-870a-28a4d4624efc)
 
 ### 8.	Ubah fungsi <sub>up()</sub> pada file <sub>create_post_tag_table</sub>
+sebelumnya
 > ![no 1 8 1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/611fcb9d-ba9d-4cf4-9b42-c9b21804ff64)
 
-Menjadi
+diubah menjadi
 > ![no 1 8 2](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/292355e4-deb5-4090-92c7-b3d8fb028d41)
 
 ### 9.	Kemudian jalankan command
@@ -49,20 +53,20 @@ Menjadi
 
 ## Pembuatan Model
 ### 1.	Buatlah file dengan nama Post.php dan isi dengan baris kode berikut
-> ![no 2 1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/a88942f5-6c9c-432c-8b65-163db9eceb30)
+> ![no 2 1 fix](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/abf10e22-a3c1-4639-9785-09f979b51582)
 
 ### 2.	Buatlah file dengan nama Comment.php dan isi dengan baris kode berikut
-> ![no 2 2](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/e707ad06-dafe-4f52-8f56-2dd60b6bfc30)
+> ![no 2 2 fix](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/25da1c47-b8ae-4886-9171-dc7aa6d2eb1d)
 
 ### 3.	Buatlah file dengan nama Tag.php dan isi dengan baris kode berikut
-> ![no 2 3](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/27d65b4d-c028-4526-a05f-34835b7f7d2e)
+> ![no 2 3 fix](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/028bd074-a294-40a7-a6f3-ef435fd2c10c)
 
 ## Relasi One-to-Many
 ### 1.	Tambahkan fungsi comments() pada file Post.php
 > ![no 3 1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/2a2fd63d-5b71-4b20-b335-d97630129049)
 
 ### 2.	Tambahkan fungsi post() dan atribut postId pada $fillable pada file Comment.php
-> ![no 3 2](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/0ee7ecb4-f13a-459d-8c26-23c6fab5d76b)
+> ![no 3 2 fix](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/99d4873e-280a-481c-880b-93cce357cf20)
 
 ### 3.	Buatlah file PostController.php dan isilah dengan baris kode berikut
 > ![no 3 3 1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/b06e60c9-cc3c-429d-8bb9-f33072774aaa)
@@ -72,7 +76,7 @@ Menjadi
 > ![no 3 4](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/f01214a6-ed03-4da6-b340-cff8f4a778b3)
 
 ### 5.	Tambahkan baris berikut pada routes/web.php
-> ![no 3 5](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/80880829-68fb-4775-a3ea-9a21888b738b)
+> ![no 3 5 fix](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/706546e6-21a8-4382-9ac5-94d90635795a)
 
 ### 6.	Buatlah satu post menggunakan Postman
 > ![no 3 6](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/8a7a45a9-6a25-4e08-9392-e3bda9b2296d)
@@ -127,9 +131,9 @@ Menjadi
 > ![no 4 14](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/ba601f14-ef04-41ad-951b-0f83a25cfee1)
 
 > [!NOTE]
-> Tag “jadul” yang berada pada dua post menunjukkan satu tag dapat berada di banyak post
+> Tag “jadul” yang berada pada dua post menunjukkan **satu** tag dapat berada di **banyak** post
 
 > [!NOTE]
-> Post “tanpamu apa artinya” yang memiliki dua tag menunjukkan satu post dapat memiliki banyak tag
+> Post “tanpamu apa artinya” yang memiliki dua tag menunjukkan **satu** post dapat memiliki banyak **tag**
 
 
