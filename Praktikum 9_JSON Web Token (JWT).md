@@ -32,10 +32,10 @@
 > ![no 2 6](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/e3c1ae5a-60a4-4d1b-a7c0-7ad2b82a42a8)
 
 ### JWT Library
-#### 1. Lakukan generate jwt key secara online menggunakan website Djecrety ― Django Secret Key Generator
+#### 1. Lakukan generate jwt key secara online menggunakan website [Djecrety ― Django Secret Key Generator](https://djecrety.ir/).
 > ![no 3 1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/352a1613-bcb3-46e6-bce0-9fe633ad8f24)
 
-> Setelah mendapatkan secret key kita akan memasukkan secret key tersebut pada file .env dengan membuat variable baru bernama JWT_SECRET.
+> Setelah mendapatkan secret key kita akan memasukkan secret key tersebut pada file <sub>.env</sub> dengan membuat variable baru bernama <sub>JWT_SECRET</sub>.
 > ![no 3 1 2](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/62146945-52fb-41cb-9eeb-2ac0f1dcf72c)
 
 #### 2. Lakukan instalasi package jwt firebase dengan menggunakan command berikut
@@ -50,7 +50,7 @@
 #### 5. Buatlah file JwtMiddleware.php dan isikan baris code berikut
 > ![no 3 5](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/c9fe314f-e707-4f83-81d4-7a365ff9f17a)
 
-#### 6. Daftarkan middleware yang telah dibuat pada bootstrap/app.php
+#### 6. Daftarkan middleware yang telah dibuat pada <sub>bootstrap/app.php</sub>
 > ![no 3 6](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/db0cd568-cafa-485a-9b57-c730e2d167ef)
 
 #### 7. Tambahkan baris berikut pada file web.php
