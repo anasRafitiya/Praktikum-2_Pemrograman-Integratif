@@ -36,6 +36,7 @@
 > ![no 3 1](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/352a1613-bcb3-46e6-bce0-9fe633ad8f24)
 
 > Setelah mendapatkan secret key kita akan memasukkan secret key tersebut pada file <sub>.env</sub> dengan membuat variable baru bernama <sub>JWT_SECRET</sub>.
+
 > ![no 3 1 2](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/62146945-52fb-41cb-9eeb-2ac0f1dcf72c)
 
 #### 2. Lakukan instalasi package jwt firebase dengan menggunakan command berikut
@@ -57,8 +58,8 @@
 > ![no 3 7](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/8f8a54d0-f454-4a88-9f85-2f8ac2f38f18)
 
 #### 8. Jalankan aplikasi pada endpoint /auth/login dengan body berikut. Salinlah token yang didapat ke notepad
->
+> ![no 3 9](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/ec943e41-6ddf-4d69-9402-002bf4e47d76)
 
 #### 9. Jalankan aplikasi pada endpoint /home dengan melampirkan nilai token yang didapat setelah login pada header
->
+> ![no 3 8](https://github.com/anasRafitiya/Praktikum-Pemrograman-Integratif/assets/125624764/1ad89363-f944-491b-8a7b-8d71b12595b8)
 
