@@ -27,7 +27,7 @@
 > ![no 5](https://github.com/anasRafitiya/Praktikum-2_Pemrograman-Integratif/assets/125624764/a26b83f9-4e84-4f11-8919-a40d91658bfe)
 
 
-### 6. Lakukan perubahan summary pada buku “No Longer Human” menjadi “Buku yang bagus (<NAMA>,<NIM>) dengan melakukan klik “Edit Document” (berlambang pensil), mengisi nilai summary yang baru, dan melakukan klik “Update"
+### 6. Lakukan perubahan summary pada buku “No Longer Human” menjadi “Buku yang bagus (<<NAMA>,<NIM>>) dengan melakukan klik “Edit Document” (berlambang pensil), mengisi nilai summary yang baru, dan melakukan klik “Update"
 > ![no 6](https://github.com/anasRafitiya/Praktikum-2_Pemrograman-Integratif/assets/125624764/e5e1ae2c-5303-4b5a-9e4b-a9795d6b11ae)
 
 
